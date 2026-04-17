@@ -1,0 +1,16 @@
+{
+  "name": "bs5-starter",
+  "version": "1.0.0",
+  "description": "starter template for bootstrap 5 websites",
+  "license": "ISC",
+  "author": "skhodjaev",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "sass-build": "sass --no-source-map scss:css",
+    "sass-watch": "sass --no-source-map --watch scss:css"
+  },
+  "dependencies": {
+    "sass": "^1.99.0"
+  }
+}
